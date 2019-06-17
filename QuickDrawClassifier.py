@@ -29,8 +29,7 @@ for s in pic_strokes:
     plt.plot(s[0], s[1], 'k')
     Picture
 
-# %% Check if the line have intersections -> To be honest... this is rather useless 
-#    Maybe close the strokes instead... ._. 
+# %% Check if the line have intersections with any other lines
 for idx, val in enumerate(pic_strokes[:-1][:]):
     stroke1 = pic_strokes[idx]
     stroke2 = pic_strokes[idx+1]
