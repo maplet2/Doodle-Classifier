@@ -5,6 +5,6 @@ We have some data from Kaggle that is obtained from the game Quick, Draw! where 
 Original Goal from Kaggle: Find a way to parse through the data and build a better classifier that can effectively learn from the noisy data set. 
 
 Personal Ideas/Goals: 
-- Use the SVD to find dominant shapes? 
+- Use the SVD to find dominant shapes
 - Count how many strokes are in each picture
 - Find a criteria that throw out images 
